@@ -1,0 +1,17 @@
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="Feature">
+            <directory>./tests/Feature</directory>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <!-- Configure the test database -->
+        <env name="DB_CONNECTION" value="sqlite"/>
+        <env name="DB_DATABASE" value=":memory:"/>
+
+        <!-- Optional: Set other environment variables if needed -->
+        <env name="APP_ENV" value="testing"/>
+        <env name="APP_DEBUG" value="true"/>
+    </php>
+</phpunit>

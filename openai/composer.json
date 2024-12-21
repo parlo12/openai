@@ -1,0 +1,38 @@
+{
+    "name": "rolflouisdor/openai",
+    "description": "Laravel OpenAI v2 Integration: A simple and flexible Laravel package for seamless integration with OpenAI API v2, enabling features like chat completions, embeddings, and more.",
+    "type": "library",
+    
+    "require": {
+    "laravel/framework": "^10.0",
+    "guzzlehttp/guzzle": "^8.0"
+},
+"require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "orchestra/testbench": "^8.0"
+},
+
+    "license": "MIT",
+    "autoload-dev": {
+    "psr-4": {
+        "Rolflouisdor\\Openai\\": "src/",
+        "Tests\\": "tests/"
+    }
+},
+
+
+    "authors": [
+        {
+            "name": "Rolf P Louisdor",
+            "email": "rolflouisdor@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "keywords": ["Laravel", "OpenAI", "Integration", "GPT-4", "Embeddings"],
+    "homepage": "https://github.com/rolflouisdor/openai",
+    "support": {
+        "issues": "https://github.com/rolflouisdor/openai/issues",
+        "source": "https://github.com/parlo12/openai.git"
+    }
+}
